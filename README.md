@@ -56,7 +56,5 @@ The plugin works as we expected. With this plugin configuration, you can now acc
 
 ### About the author
 
-Follow me on Twitter: [@BoburUmurzokov](https://twitter.com/BoburUmurzokov)
-Visit my blog: www.iambobur.com
-
-Visit my blog: [www.iambobur.com](https://www.iambobur.com/)
+- Follow me on Twitter: [@BoburUmurzokov](https://twitter.com/BoburUmurzokov)
+- Visit my blog: [www.iambobur.com](https://www.iambobur.com/)
