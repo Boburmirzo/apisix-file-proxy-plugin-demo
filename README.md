@@ -1,4 +1,4 @@
-# How to develop a new file-proxy custom plugin in Lua for Apache APISIX
+# How to use a File-proxy custom plugin in Lua for Apache APISIX
 
 This repo includes a source code of a new custom plugin called **file-proxy** for APISIX using Lua. This plugin will be used to **expose the static files through API** and fetch a file from a specified URL.
 
