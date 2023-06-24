@@ -2,9 +2,11 @@
 
 This repo includes a source code of a new custom plugin called **file-proxy** for APISIX using Lua. This plugin will be used to **expose the static files through API** and fetch a file from a specified URL.
 
-## When use this plugin
+## When using this plugin
 
-Often, we want to **expose a static file** (Yaml, JSON, JavaScript, CSS, or image files) through API. Read the full tutorial to understand when and why use this plugin.
+Often, we want to **expose a static file** (Yaml, JSON, JavaScript, CSS, or image files) through API. Read the full tutorial to understand when and why to use this plugin.
+
+https://api7.ai/blog/plugin-development-with-lua-and-chatgpt
 
 ## How to use this plugin
 
