@@ -1,0 +1,9 @@
+deployment:
+  role: data_plane
+  role_data_plane:
+    config_provider: yaml 
+apisix:
+  extra_lua_path: "/opt/?.lua"
+# Use the following plugins only, including our custom file-proxy 
+plugins:       
+  - file-proxy

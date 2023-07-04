@@ -1,0 +1,9 @@
+routes:
+  # Add OpenAPI definition    
+  - uri: /openapi.yaml
+    name: "OpenAPI Definition"
+    desc: "Route for OpenAPI Definition file"
+    plugins:
+      file-proxy:
+        path: /usr/local/apisix/conf/openapi.yaml      
+#END

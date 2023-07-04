@@ -1,23 +1,22 @@
 openapi: 3.0.1
 info:
   title: Conference Plugin
-  description: A plugin that allows the retrieve conference sessions.
+  description: A plugin that allows the retrieve speaker's sessions.
   version: 'v1'
 servers:
   - url: http://localhost:9080
 paths:
-  /speaker/{params}/sessions:
+  /speaker/{id}/sessions:
     get:
-      operationId: getTodos
-      summary: Retrive all sessions from Conference API
+      operationId: GetSpeakerSessions
       parameters:
-        - description: params in path
+        - name: id
           in: path
-          name: params
+          description: Format - int32.
           required: true
           schema:
-            type: string
+            type: integer
       responses:
-        "200":
+        '200':
           description: OK
           content: {}
